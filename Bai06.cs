@@ -265,7 +265,7 @@ namespace MatrixMenuApp
                     case 4:
                         if (n > 0 && m > 0)
                         {
-                            Console.WriteLine($"\nKết quả: Tổng các số nguyên tố có trong ma trận là: {SumPrimes(array, n, m)}");
+                            Console.WriteLine($"\nKết quả: Tổng các số không là số nguyên tố có trong ma trận là: {SumPrimes(array, n, m)}");
                         }
                         else
                         {
@@ -315,3 +315,4 @@ namespace MatrixMenuApp
         }
     }
 }
+
